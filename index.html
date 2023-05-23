@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Generalised Lie algebras in Derived Geometry | Lukas Brantner and Gijs Heuts</title>
+<meta name="generator" content="Bluefish 2.2.13beta" />
+<meta property="og:title" content="Generalised Lie algebras in Derived Geometry" />
+<meta name="author" content="Lukas Brantner" />
+<meta property="og:locale" content="en_UK" />
+<meta name="description" content="$ \newcommand\A{\mathrm{A}} \newcommand\C{\mathrm{C}} \newcommand\D{\mathrm{D}} \newcommand\E{\mathrm{E}} \newcommand\F{\mathrm{F}} \newcommand\G{\mathrm{G}} \newcommand\H{\mathrm{H}} \newcommand\h{\mathrm{h}} \newcommand\K{\mathrm{K}} \newcommand\L{\mathrm{L}} \newcommand\M{\mathrm{M}} \newcommand\t{\mathrm{t}} \newcommand{\bA}{\mathbf{A}} \newcommand{\bE}{\mathbf{E}} \newcommand{\bG}{\mathbf{G}} \newcommand{\bH}{\mathbf{H}} \newcommand{\bT}{\mathbf{T}} \newcommand{\bW}{\mathbf{W}} \newcommand{\Gm}{\bG_m} \newcommand\Ascr{\mathcal{A}} \newcommand\Cscr{\mathcal{C}} \newcommand\Dscr{\mathcal{D}} \newcommand\Escr{\mathcal{E}} \newcommand\Kscr{\mathcal{K}} \newcommand\Lscr{\mathcal{L}} \newcommand\Oscr{\mathcal{O}} \newcommand\Perfscr{\mathcal{P}\mathrm{erf}} \newcommand\Acscr{\mathcal{A}\mathrm{c}} \newcommand\heart{\heartsuit} \newcommand\cn{\mathrm{cn}} \newcommand\op{\mathrm{op}} \newcommand\gr{\mathrm{gr}} \newcommand\Gr{\mathrm{Gr}} \newcommand\fil{\mathrm{fil}} \newcommand\Ho{\mathrm{Ho}} \newcommand\dR{\mathrm{dR}} \newcommand\HH{\mathrm{HH}} \newcommand\HC{\mathrm{HC}} \newcommand\HP{\mathrm{HP}} \newcommand\TC{\mathrm{TC}} \newcommand\TP{\mathrm{TP}} \newcommand{\bMap}{\mathbf{Map}} \newcommand{\End}{\mathrm{End}} \newcommand{\Mod}{\mathrm{Mod}} \newcommand{\coMod}{\mathrm{coMod}} \newcommand{\Fun}{\mathrm{Fun}} \newcommand{\bMap}{\mathbf{Map}} \newcommand\bE{\mathbf{E}} \newcommand\bZ{\mathbf{Z}} \newcommand\bAM{\mathbf{AM}} \newcommand\bLM{\mathbf{LM}} \newcommand\Spec{\mathrm{Spec}} \newcommand\CAlg{\mathrm{CAlg}} \newcommand\aCAlg{\mathfrak{a}\CAlg} \newcommand\dCAlg{\mathfrak{d}\CAlg} $" />
+<meta property="og:description" content="$ \newcommand\A{\mathrm{A}} \newcommand\C{\mathrm{C}} \newcommand\D{\mathrm{D}} \newcommand\E{\mathrm{E}} \newcommand\F{\mathrm{F}} \newcommand\G{\mathrm{G}} \newcommand\H{\mathrm{H}} \newcommand\h{\mathrm{h}} \newcommand\K{\mathrm{K}} \newcommand\L{\mathrm{L}} \newcommand\M{\mathrm{M}} \newcommand\t{\mathrm{t}} \newcommand{\bA}{\mathbf{A}} \newcommand{\bE}{\mathbf{E}} \newcommand{\bG}{\mathbf{G}} \newcommand{\bH}{\mathbf{H}} \newcommand{\bT}{\mathbf{T}} \newcommand{\bW}{\mathbf{W}} \newcommand{\Gm}{\bG_m} \newcommand\Ascr{\mathcal{A}} \newcommand\Cscr{\mathcal{C}} \newcommand\Dscr{\mathcal{D}} \newcommand\Escr{\mathcal{E}} \newcommand\Kscr{\mathcal{K}} \newcommand\Lscr{\mathcal{L}} \newcommand\Oscr{\mathcal{O}} \newcommand\Perfscr{\mathcal{P}\mathrm{erf}} \newcommand\Acscr{\mathcal{A}\mathrm{c}} \newcommand\heart{\heartsuit} \newcommand\cn{\mathrm{cn}} \newcommand\op{\mathrm{op}} \newcommand\gr{\mathrm{gr}} \newcommand\Gr{\mathrm{Gr}} \newcommand\fil{\mathrm{fil}} \newcommand\Ho{\mathrm{Ho}} \newcommand\dR{\mathrm{dR}} \newcommand\HH{\mathrm{HH}} \newcommand\HC{\mathrm{HC}} \newcommand\HP{\mathrm{HP}} \newcommand\TC{\mathrm{TC}} \newcommand\TP{\mathrm{TP}} \newcommand{\bMap}{\mathbf{Map}} \newcommand{\End}{\mathrm{End}} \newcommand{\Mod}{\mathrm{Mod}} \newcommand{\coMod}{\mathrm{coMod}} \newcommand{\Fun}{\mathrm{Fun}} \newcommand{\bMap}{\mathbf{Map}} \newcommand\bE{\mathbf{E}} \newcommand\bZ{\mathbf{Z}} \newcommand\bAM{\mathbf{AM}} \newcommand\bLM{\mathbf{LM}} \newcommand\Spec{\mathrm{Spec}} \newcommand\CAlg{\mathrm{CAlg}} \newcommand\aCAlg{\mathfrak{a}\CAlg} \newcommand\dCAlg{\mathfrak{d}\CAlg} $" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Generalised Lie algebras in Derived Geometry | Lukas Brantner and Gijs Heuts" />
+ 
+    <style>
+        body {
+            margin-top: 50px;
+            margin-left: 100px;
+            margin-right: 150px;  /* Add this line to add a right margin */
+            text-align: justify;
+        }
+    </style>
+ 
+ 
+ <body > 
+ 
+ 
+
+ 
+ 
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+      <h1 class="post-title">Workshop on Generalised Lie algebras in Derived Geometry</h1>
+      <h2 class="">29 May - 2 June  2023 @ Utrecht</h2>
+  </header>
+
+  <div class="post-content">
+    <div style="display:none">
+
+</div> 
+
+ 
+
+
+    
+<h1 id="confirmed-speakers">Speakers</h1>
+
+<div class="right-align">
+    <img src="HotelUtrechtThinner.png" alt="Second Image"style="float: right; width: 500px">
+</div>
+ 
+<p>Greg Arone (Stockholm)</p>
+
+<p>Alexander Berglund (Stockholm)</p>
+
+<p>Joana Cirici (Barcelona)</p>
+
+<p>Benoit Fresse (Lille)</p>
+
+<p> Ezra Getzler (Northwestern)</p>
+
+<p> Jesper Grodal (Copenhagen) </p>
+
+<p>Hadrian Heine (EPFL)</p>
+
+<p>Jeremy Hahn (MIT)</p>
+
+<p>Geoffroy Horel (Paris)</p>
+
+<p>Nick Kuhn (University of Virginia)</p>
+
+<p>Thomas Nikolaus (Münster)</p>
+
+<p>Joost Nuiten (Toulouse)</p>
+
+<p> Jon Pridham (Edinburgh) </p>
+
+<p> Nick Rozenblyum (Chicago) </p>
+
+<p> Paolo Salvatore (Rome) </p>
+
+<p>Andrew Senger  (Harvard)</p>
+
+<p> Allen Yuan (Columbia) </p>
+
+
+
+
+<h1 id="organizers">Organisers</h1>
+
+<p>  <div class="wrapper"> <a class="site-title" rel="author" href="https://people.maths.ox.ac.uk/brantner/">Lukas Brantner</a> and <a class="site-title" rel="author" href="https://sites.google.com/site/gijsheuts/home">Gijs Heuts</a><nav class="site-nav"></p>
+ 
+
+<h1 id="lodging">Lodging</h1>
+
+<p>All conference participants will be housed at 
+<a class="site-title" rel="author" href="https://www.esh.nl/de/">Hotel Ernst Sillem Hoeve</a>.
+Arrival date: Sunday, the 28th of May</p>
+
+<h1 id="travel">Travel</h1>
+To get to the venue there are several options:<br>
++ A taxi from Schiphol airport takes about 40min (but can be somewhat costly), a taxi from Utrecht Central Station takes 20min.<br>
++ Via public transport, the closest train station is Den Dolder. From there it is usually only a 5 minute bus ride, but unfortunately that bus will not run on May 28. 
+We will shuttle back and forth between the station and the Ernst Sillem Hoeve. If you wish to make use of this, please let us know by email and telling us your approximate time of arrival, so that we can organize.
+
+<h1 id="travel">Food</h1>
+Food will be provided at the venue, starting with Sunday dinner and ending with Friday lunch. (There will be no further talks scheduled Friday afternoon.) 
+
+ 
+ 
+
+<h1 id="reception">Reception</h1>
+
+<p> TBD</p>
+
+<h1 id="tentative-schedule">Schedule</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>M</th>
+      <th>Tu</th>
+      <th>W</th>
+      <th>Th</th>
+      <th>F</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0900 Coffee</td>
+      <td>0900 Coffee</td>
+      <td>0900 Coffee</td>
+      <td>0900 Coffee</td>
+      <td>0900 Coffee</td>
+    </tr>
+    <tr>
+      <td>0930 <strong>Rezk</strong></td>
+      <td>0930 <strong>Behrens</strong></td>
+      <td>0930 <strong>Lurie</strong></td>
+      <td>0930 <strong>Ravenel</strong></td>
+      <td>0930 <strong>Stojanoska</strong></td>
+    </tr>
+    <tr>
+      <td>1030 Coffee</td>
+      <td>1030 Coffee</td>
+      <td>1030 Coffee</td>
+      <td>1030 Coffee</td>
+      <td>1030 Coffee</td>
+    </tr>
+    <tr>
+      <td>1130 <strong>Hill</strong></td>
+      <td>1130 <strong>Hopkins</strong></td>
+      <td>1130 <strong>Hoyois</strong></td>
+      <td>1130 <strong>Xu</strong></td>
+      <td>1100 <strong>Hess</strong></td>
+    </tr>
+    <tr>
+      <td>1230 Lunch</td>
+      <td>1230 Lunch</td>
+      <td>Free afternoon</td>
+      <td>1230 Lunch</td>
+      <td>1200 Break</td>
+    </tr>
+    <tr>
+      <td>1415 <strong>Isaksen</strong></td>
+      <td>1430 <strong>Henn</strong></td>
+      <td> </td>
+      <td>1430 <strong>Stapleton</strong></td>
+      <td>1215 <strong>Greenlees</strong></td>
+    </tr>
+    <tr>
+      <td>1515 Coffee</td>
+      <td>1530 Coffee</td>
+      <td> </td>
+      <td>1530 Coffee</td>
+      <td>1315 Conference Ends</td>
+    </tr>
+    <tr>
+      <td>1545 <strong>Lawson</strong></td>
+      <td>1630 <strong>Beaudry</strong></td>
+      <td> </td>
+      <td>1630 <strong>Schlank</strong></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>1700 Reception</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="titles-and-abstracts">Titles and abstracts</h1>
+ 
+<p><strong>Arone</strong>, <em>Lie algebras in the category of orthogonal sequences</em>.
+An orthogonal sequence (of spectra) is a functor from the category of Euclidean spaces and isomorphisms to the category of spectra. The category of orthogonal sequences is left tensored over the category of symmetric sequences equipped with a composition product. As a result, one can talk about left modules, or algebras, over an operad in the category of orthogonal sequence. There is a bar-cobar duality between algebras (in the category of orthogonal sequences) over the commutative operad and ove rthe spectral Lie operad. We use this to formulate a chain rule in orthogonal calculus, and to show that the derivatives of a functor in orthogonal calculus form an algebra over the spectral Lie operad. Some examples will be discussed.
+</p>
+
+<p><strong>Berglund</strong>, <em>Lie algebras and classifying spaces of fibrations</em>.
+I will discuss some recent results on the rational homotopy theory of classifying spaces of fibrations that feature Lie algebras and the Lie operad in an essential way. Fix a simply connected finite CW-complex X and consider the classifying space, Baut(X), of fibrations with fiber X. The space Baut(X) is far from nilpotent in general, so its rational homotopy type cannot be modeled by a Lie algebra in chain complexes of Q-vector spaces as in Quillen's theory. In joint work with Tomas Zeman, we construct a new type of model that instead uses Lie algebras in chain complexes of algebraic representations of a certain reductive algebraic group. As a corollary, we express the rational cohomology of Baut(X) in terms of the cohomology of arithmetic groups and Lie algebra cohomology. If time admits, I will also discuss how Kontsevich's graph complex associated to the Lie operad makes an appearance in the cohomology of Baut(X) when X is a Poincaré duality complex, generalizing earlier work of Ib Madsen and myself.
+</p>
+
+<p><strong>Cirici</strong>, <em>Formality of hypercommutative algebras of Calabi-Yau manifolds</em>.
+Any Batalin-Vilkovisky algebra with a homotopy trivialization of the BV-operator gives rise to a hypercommutative algebra structure at the cochain level which, in general, contains more homotopical information than the hypercommutative algebra introduced by Barannikov and Kontsevich on cohomology. In this talk, I will explain how to use the purity of mixed Hodge structures to show that the canonical hypercommutative algebra defined on any compact Calabi-Yau manifold is formal. This is joint work with Geoffroy Horel.
+</p>
+
+<p><strong>Fresse</strong>, <em>TBD</em>. </p>
+
+
+<p><strong>Getzler</strong>, <em>Homological perturbation theory for L<sub>&#8734</sub> algebras and comparison between cubical and simplicial sets </em>.
+We give a streamlined account of a theorem of Berglund and Loday-Valette that constructs explicit an quasi-isomorphism between a curved pronilpotent L<sub>&#8734</sub> algebra and the canonical induced curved L<sub>&#8734</sub> algebra structure on a deformation retract of the underlying complex. As an application, we prove that the simplicial and cubical approaches to integration of curved pronilpotent L<sub>&#8734</sub> algebras yield isomorphic results.
+</p>
+
+
+<p><strong>Grodal</strong>, <em>TBD</em>. </p>
+
+
+<p><strong>Heine</strong>, <em>A model for restricted L<sub>&#8734</sub>-algebras</em>.
+I’ll talk about how developments in equivariant homotopy theory over the last decade have resulted in new ways to study and understand Goerssian questions in chromatic homotopy. This is a preliminary report on work with various subsets of Beaudry, Bobkova, Lawson, Shi, Stojanoska, &amp; Zeng.</p>
+ 
+<p><strong>Hahn</strong>, <em>Configuration spaces and Lie algebras</em>.
+I will discuss some approaches to the Morava E-theory of loop spaces of spheres, including joint work with Brantner, Knudsen, Senger, and Zhang. </p>
+ 
+
+<p><strong>Horel</strong>, <em>Binomial rings and homotopy theory</em>.
+Abstract: In a famous paper, Sullivan showed that the rational homotopy theory of 
+finite type nilpotent spaces can be encoded in a fully faithful manner 
+by mapping it to the homotopy category of commutative differential 
+graded algebras over the rational numbers. For integral homotopy theory, 
+a result of Mandell shows that it is faithfully captured by the integral 
+cochains equipped with their E-infinity structure. This functor is 
+however not full. I will explain a way of fixing this problem inspired 
+by work of Toën, using cosimplicial binomial rings instead of E<sub>&#8734</sub>
+differential graded algebras</p>
+
+
+<p><strong>Kuhn</strong>, <em>A canonical filtration of right modules over an operad, topological Andre-Quillen homology, and the Lie operad</em>.
+More than 20 years ago I wrote a paper with some observations about models for the tensor product of based space and an augmented (or nonunitial) commutatative ring spectrum.  In particular, I noted that these came with an interesting canonical filtration. Stabilizing, I noticed this gave a filtration of the then very new Topological Andre-Quillen homology, with subquotients involving spectra appearing in Goodwillie calculus. These were soon after shown by Michael Ching to be the spectra making up the Lie cooperad.
+A while later, but only recently published, Berhens and Rezk used what appeared to be my filtration of TAQ in their work on stable models for unstable v_n periodic homotopy, but gave their own construction. 
+In my talk I will try to put all of this in context.  There is a canonical filtration on right modules over an operad, and, specialized to the operad Com, appropriate examples fed into appropriate bar constructions yields the filtrations I describe above.  And yes, the Behrens-Rezk filtration agrees with mine: we are basically using two different explicit cofibrant replacements for the same module.
+</p>
+
+<p><strong>Nikolaus</strong>, <em>Maps between spherical group algebras</em>. 
+I will speak about a central question in higher algebra (aka brave new algebra), namely which rings
+admit 'higher models', that is lifts to the sphere spectrum. This question is in some sense very classical, but there are many open questions. These questions are closely related to questions about higher versions of prismatic cohomology (asked e.g. by Scholze and Lurie) and delta-rings. Concretely we will consider the case of group algebras and explain how to understand maps between lifts of group algebras to the sphere spectrum. The results that we present are suprising deformation rigidity results, which are joint with Carmeli and Yuan.
+</p>
+
+<p><strong>Nuiten</strong>, <em>PD operads and partition Lie algebras</em>.
+Partition Lie algebras have recently been introduced by Brantner and Mathew as certain homotopy theoretic refinements of dg-Lie algebras that control deformation problems in positive characteristic. In this talk, I will try to explain how partition Lie algebras (and other types of Lie algebras) can be understood as certain types of algebras over a PD operad, a refinement of the usual notion of an operad. A version of Koszul duality for such PD operads gives rise to Lie-algebraic descriptions of various types of formal problems appearing in derived algebraic geometry. Based on joint work with Lukas Brantner and Ricardo Campos.
+</p>
+
+<p><strong>Pridham</strong>, <em>The role of Lie algebroids in deformation quantisation of derived stacks</em>.
+Poisson structures and their quantisations only satisfy etale functoriality. For Artin stacks or Lie groupoids, this can be resolved by working with a site of Lie algebroids.
+</p>
+
+<p><strong>Salvatore</strong>, <em>A new approach to the Goodwillie-Sinha spectral sequence</em>.
+We present a new combinatorial approach to the Goodwillie-Sinha spectral sequence for the homology of the space of long knots in R<sup>3</sup> that makes it more accessible to computations. This is joint work with my student 
+Andrea Marino.</p>
+
+<p><strong>Senger</strong>, <em>The mod (p,v<sub>1</sub>) K-theory of Z/p<sup>n</sup> </em>.
+I will explain how to compute the mod (p,v<sub>1</sub> K-theory of Z/p<sup>n</sup>. This is joint work with Jeremy Hahn and Ishan Levy.</p>
+
+<p><strong>Yuan</strong>, <em>Strict units of group rings</em>.
+Just as an ordinary commutative ring has a group of units, one can associate to any commutative ring spectrum R a topological abelian group of ``strict units’’.  These strict units are a basic invariant of R, for instance controlling the types of roots one can adjoint to R.  Despite this, there have not been many calculations of strict unit groups.  I will survey some results in the area and report on work in progress, joint with Shachar Carmeli and Thomas Nikolaus, on calculating strict units of group rings.</p>
+
+ 
+
+<h1 id="acknowledgments">Acknowledgments</h1>
+
+<p>The organisers thank the European Research Council for funding. </p>
+ 
+ 
+<h1 id="conference-photo">Conference photo</h1>
+
+<p><img style="padding: 10px" width="800" src="../assets/jpg/goerssfest_photo.jpeg" /></p>
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+   
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+    </div>
+</footer>
+
+</body>
+
+</html>
