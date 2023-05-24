@@ -15,6 +15,7 @@
  
     <style>
         body {
+            font: normal 16px Verdana, Arial
             margin-top: 50px;
             margin-left: 100px;
             margin-right: 150px;  /* Add this line to add a right margin */
@@ -52,6 +53,8 @@
 <div class="right-align">
     <img src="HotelUtrechtThinner.png" alt="Second Image"style="float: right; width: 500px">
 </div>
+ 
+<p>Ben Antieau  (Northwestern)</p>
  
 <p>Greg Arone (Stockholm)</p>
 
@@ -197,10 +200,16 @@ Food will be provided at the venue, starting with Sunday dinner and ending with 
 </table>
 
 <h1 id="titles-and-abstracts">Titles and abstracts</h1>
+
+<p><strong>Antieau</strong>, <em>TBD</em>.</p>
  
 <p><strong>Arone</strong>, <em>Lie algebras in the category of orthogonal sequences</em>.
 An orthogonal sequence (of spectra) is a functor from the category of Euclidean spaces and isomorphisms to the category of spectra. The category of orthogonal sequences is left tensored over the category of symmetric sequences equipped with a composition product. As a result, one can talk about left modules, or algebras, over an operad in the category of orthogonal sequence. There is a bar-cobar duality between algebras (in the category of orthogonal sequences) over the commutative operad and ove rthe spectral Lie operad. We use this to formulate a chain rule in orthogonal calculus, and to show that the derivatives of a functor in orthogonal calculus form an algebra over the spectral Lie operad. Some examples will be discussed.
 </p>
+
+
+ 
+
 
 <p><strong>Berglund</strong>, <em>Lie algebras and classifying spaces of fibrations</em>.
 I will discuss some recent results on the rational homotopy theory of classifying spaces of fibrations that feature Lie algebras and the Lie operad in an essential way. Fix a simply connected finite CW-complex X and consider the classifying space, Baut(X), of fibrations with fiber X. The space Baut(X) is far from nilpotent in general, so its rational homotopy type cannot be modeled by a Lie algebra in chain complexes of Q-vector spaces as in Quillen's theory. In joint work with Tomas Zeman, we construct a new type of model that instead uses Lie algebras in chain complexes of algebraic representations of a certain reductive algebraic group. As a corollary, we express the rational cohomology of Baut(X) in terms of the cohomology of arithmetic groups and Lie algebra cohomology. If time admits, I will also discuss how Kontsevich's graph complex associated to the Lie operad makes an appearance in the cohomology of Baut(X) when X is a Poincaré duality complex, generalizing earlier work of Ib Madsen and myself.
