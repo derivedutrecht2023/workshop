@@ -156,41 +156,41 @@ Food will be provided at the venue, starting with Sunday dinner and ending with 
       <td>11.00 <strong>Heine</strong></td>
       <td>10.45 <strong>Cirici</strong></td>
       <td>11.00 <strong>Yuan</strong></td>
-      <td>11.00 <strong>Hahn</strong></td>
+      <td>10.45 <strong>Hahn</strong></td>
     </tr>
     <tr>
       <td>12.00 Lunch</td>
       <td>12.00 Lunch</td>
       <td>11.45<strong> Horel</strong></td>
       <td>12.00 Lunch</td>
-      <td>12.00 Break</td>
+      <td>11.45<strong> Kuhn </strong></td>
     </tr>
     <tr>
       <td>15.00 <strong>Fresse</strong></td>
       <td>15.00 <strong>Pridham</strong></td>
       <td>12.45 Lunch </td>
       <td>15.00 <strong>Senger</strong></td>
-      <td>12.00 <strong>Kuhn</strong></td>
+      <td>12.45 Lunch </td>
     </tr>
     <tr>
       <td>16.00 Coffee</td>
       <td>16.00 Coffee</td>
       <td> </td>
       <td>16.00 Coffee</td>
-      <td>13.15 Conference Ends</td>
+      <td></td>
     </tr>
     <tr>
       <td>16.15 <strong>Grodal</strong></td>
       <td>16.15 <strong>Rozenblyum</strong></td>
       <td> </td>
-      <td>16.15 <strong>Gong show</strong></td>
+      <td>16.15 <strong>Antieau</strong></td>
       <td> </td>
     </tr>
     <tr>
       <td>17.15 Reception</td>
       <td> </td>
       <td> </td>
-      <td> </td>
+      <td>17.15 <strong>Gong show</strong> </td>
       <td> </td>
     </tr>
   </tbody>
@@ -218,8 +218,9 @@ We give a streamlined account of a theorem of Berglund and Loday-Valette that co
 </p>
 
 
-<p><strong>Grodal</strong>, <em>The cohomology of loop groups and finite groups of Lie type via string topology</em>. </p>
-
+<p><strong>Grodal</strong>, <em>The cohomology of loop groups and finite groups of Lie type via string topology</em>. 
+Classifying spaces of loop groups LG(C), for G a connected split reductive group scheme over Z,  and finite groups of Lie type G(F<sub>q</sub>) might a priori seem like very different objects. E.g., one is rationally trivial but the other is not (if G is non-trivial). Nevertheless it has calculationally been observed that their mod ell cohomology tend to agree as long as q is congruent to 1 mod ell. In joint work with Anssi Lahtinen, that combines string topology à la Chas–Sullivan with the theory of ell-compact groups, we provide a structural relationship between these two cohomologies, allowing us to establish a structured isomorphism in very many cases. I’ll discuss this isomorphism, where it comes from, and what extra structure it carries. Multiplications? Brackets? Operations? One could also ask if one could be viewed as a deformation of the other?
+</p>
 
 <p><strong>Heine</strong>, <em>A model for restricted L<sub>&#8734</sub>-algebras</em>.
 By a result of Fresse restricted Lie algebras over a field are algebras for the monad 
@@ -250,7 +251,7 @@ differential graded algebras</p>
 
 <p><strong>Kuhn</strong>, <em>A canonical filtration of right modules over an operad, topological Andre-Quillen homology, and the Lie operad</em>.
 More than 20 years ago I wrote a paper with some observations about models for the tensor product of based space and an augmented (or nonunitial) commutatative ring spectrum.  In particular, I noted that these came with an interesting canonical filtration. Stabilizing, I noticed this gave a filtration of the then very new Topological Andre-Quillen homology, with subquotients involving spectra appearing in Goodwillie calculus. These were soon after shown by Michael Ching to be the spectra making up the Lie cooperad.
-A while later, but only recently published, Berhens and Rezk used what appeared to be my filtration of TAQ in their work on stable models for unstable v_n periodic homotopy, but gave their own construction. 
+A while later, but only recently published, Berhens and Rezk used what appeared to be my filtration of TAQ in their work on stable models for unstable v<sub>n</sub> periodic homotopy, but gave their own construction. 
 In my talk I will try to put all of this in context.  There is a canonical filtration on right modules over an operad, and, specialized to the operad Com, appropriate examples fed into appropriate bar constructions yields the filtrations I describe above.  And yes, the Behrens-Rezk filtration agrees with mine: we are basically using two different explicit cofibrant replacements for the same module.
 </p>
 
@@ -280,7 +281,7 @@ We present a new combinatorial approach to the Goodwillie-Sinha spectral sequen
 Andrea Marino.</p>
 
 <p><strong>Senger</strong>, <em>The mod (p,v<sub>1</sub>) K-theory of Z/p<sup>n</sup> </em>.
-I will explain how to compute the mod (p,v<sub>1</sub> K-theory of Z/p<sup>n</sup>. This is joint work with Jeremy Hahn and Ishan Levy.</p>
+I will explain how to compute the mod (p,v<sub>1</sub>) K-theory of Z/p<sup>n</sup>. This is joint work with Jeremy Hahn and Ishan Levy.</p>
 
 <p><strong>Yuan</strong>, <em>Strict units of group rings</em>.
 Just as an ordinary commutative ring has a group of units, one can associate to any commutative ring spectrum R a topological abelian group of ``strict units’’.  These strict units are a basic invariant of R, for instance controlling the types of roots one can adjoint to R.  Despite this, there have not been many calculations of strict unit groups.  I will survey some results in the area and report on work in progress, joint with Shachar Carmeli and Thomas Nikolaus, on calculating strict units of group rings.</p>
