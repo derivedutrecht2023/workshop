@@ -95,7 +95,7 @@
 
 <h1 id="organizers">Organisers</h1>
 
-<p>  <div class="wrapper"> <a class="site-title" rel="author" href="https://people.maths.ox.ac.uk/brantner/">Lukas Brantner</a> and <a class="site-title" rel="author" href="https://sites.google.com/site/gijsheuts/home">Gijs Heuts</a><nav class="site-nav"></p>
+<p>  <div class="wrapper"> <a class="site-title" rel="author" href="https://people.maths.ox.ac.uk/brantner/">Lukas Brantner</a> and <a class="site-title" rel="author" href="https://sites.google.com/site/gijsheuts/home">Gijs Heuts</a><nav class="site-nav">.</p>
  Contact: <a href = "derivedutrecht2023@gmail.com">derivedutrecht2023@gmail.com</a>.
 
 <h1 id="lodging">Lodging</h1>
@@ -262,9 +262,7 @@ A while later, but only recently published, Berhens and Rezk used what appeared 
 In my talk I will try to put all of this in context.  There is a canonical filtration on right modules over an operad, and, specialized to the operad Com, appropriate examples fed into appropriate bar constructions yields the filtrations I describe above.  And yes, the Behrens-Rezk filtration agrees with mine: we are basically using two different explicit cofibrant replacements for the same module.
 </p>
 
-<p><strong>Nikolaus</strong>, <em>Maps between spherical group algebras</em>. 
-I will speak about a central question in higher algebra (aka brave new algebra), namely which rings
-admit 'higher models', that is lifts to the sphere spectrum. This question is in some sense very classical, but there are many open questions. These questions are closely related to questions about higher versions of prismatic cohomology (asked e.g. by Scholze and Lurie) and delta-rings. Concretely we will consider the case of group algebras and explain how to understand maps between lifts of group algebras to the sphere spectrum. The results that we present are suprising deformation rigidity results, which are joint with Carmeli and Yuan.
+<p><strong>Nikolaus</strong>, <em>Algebraic K-Theory in geometric topology</em>. 
 </p>
 
 <p><strong>Nuiten</strong>, <em>PD operads and partition Lie algebras</em>.
