@@ -217,7 +217,9 @@ I will discuss some recent results on the rational homotopy theory of classifyin
 Any Batalin-Vilkovisky algebra with a homotopy trivialization of the BV-operator gives rise to a hypercommutative algebra structure at the cochain level which, in general, contains more homotopical information than the hypercommutative algebra introduced by Barannikov and Kontsevich on cohomology. In this talk, I will explain how to use the purity of mixed Hodge structures to show that the canonical hypercommutative algebra defined on any compact Calabi-Yau manifold is formal. This is joint work with Geoffroy Horel.
 </p>
 
-<p><strong>Fresse</strong>, <em>TBD</em>. </p>
+<p><strong>Fresse</strong>, <em>Mapping spaces for dg Hopf cooperads and homotopy automorphisms of the rationalization of E<sub>n</sub>-operads</em>. 
+I will report on a joint work with Thomas Willwacher, whose first aim is to define a simplicial enrichment on the category of differential graded Hopf cooperads (the category of dg Hopf cooperads for short). This simplicial enrichment is compatible with model structures, and therefore, gives define a good model of mapping spaces in the category of dg Hopf cooperads. We use the definition of our simplicial enrichment to upgrade results of the literature about the homotopy automorphism spaces of dg Hopf cooperads by dealing with simplicial monoid structures. To be specific, the rational homotopy theory of operads implies that the homotopy automorphism spaces of dg Hopf cooperads can be regarded as models for the homotopy automorphism spaces of the rationalization of operads in topological spaces (or in simplicial sets). We precisely prove, using our simplicial enrichment, that the spaces of Maurer-Cartan forms on the Kontsevich graph complex Lie algebras are homotopy equivalent, in the category of simplicial monoids, to the homotopy automorphism spaces of the rationalization of the operads of little discs.
+</p>
 
 
 <p><strong>Getzler</strong>, <em>Homological perturbation theory for L<sub>&#8734</sub> algebras and comparison between cubical and simplicial sets </em>.
@@ -263,6 +265,7 @@ In my talk I will try to put all of this in context.  There is a canonical filtr
 </p>
 
 <p><strong>Nikolaus</strong>, <em>Algebraic K-Theory in geometric topology</em>. 
+While algebraic K-theory has many applications and uses in modern algebra and arithmetic, its origins actually lie in geometric topology through Whithead's work on simple homotopy theory. We will review this in modern language, to elucidate the nature of simple homotopy types. This will also lead to parametrized versions of results of West and Chapman through the use of Efimov-K-Theory. The key is a K-theoretic model of assembly maps which is of independent nature and should have many more applications in the furture.
 </p>
 
 <p><strong>Nuiten</strong>, <em>PD operads and partition Lie algebras</em>.
